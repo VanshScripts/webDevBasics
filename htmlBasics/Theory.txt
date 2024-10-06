@@ -1,0 +1,68 @@
+The <!DOCTYPE html> declaration tells the browser to render the page using HTML5.
+
+<html lang="en">
+The opening tag of the HTML element. This is the root element that contains all the content of the webpage.
+lang="en" specifies that the language of the document is English. 
+
+<head>
+The content within the <head> tag doesn't appear on the page itself but provides metadata, links to external resources, and other information for the browser.
+
+Meta tags are snippets of text that describe a webpage's content. 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Document</title>
+What it is: The title tag defines the title of the web page that appears in the browser tab or window.
+
+
+<body>
+What it is: This is the body tag where the visible content of the webpage goes. All text, images, links, videos, etc.
+
+
+
+    <img src="./assets/Formal Picture.png" alt="Profile Picture">
+
+
+    <a href="https://google.com"> GO TO GOOGLE </a>
+
+div> tab
+div>lorem6 tab
+div>ul>li tab
+
+    <a href="mailto:vanshworkinbox@gmail.com"> MAil ME</a>   mailto will open the mail box directly
+
+
+TABLES
+<table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>DOB</th>
+        </tr>
+<table/>
+
+
+FORM
+<form action="">
+        <label for="email">
+            Email: <input type="text" placeholder="email">
+        </label>
+
+        <label for="password">
+            Password: <input type="password" placeholder="password">
+        </label>
+    
+        <button type="reset"> Reset</button>
+        <button type="submit"> Submit</button>
+<form/>
+
+
+            <textarea name="textarea" rows="6" cols="33" id=""></textarea>
+            
+            <select name="text" id="">
+                <option value="text">Name</option>
+                <option value="text">Place</option>
+                <option value="text">Animal</option>
+            </select>
+
